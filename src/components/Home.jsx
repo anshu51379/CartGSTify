@@ -3,23 +3,23 @@ import toast from "react-hot-toast";
 import { useDispatch } from "react-redux";
 
 const img1 =
-  "https://www.reliancedigital.in/medias/Apple-MGN63HNA-Laptops-491946461-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNzczNDJ8aW1hZ2UvanBlZ3xpbWFnZXMvaDVhL2gyZC85NDQzMDgzNTgzNTE4LmpwZ3xhYzRiNWIxZGQ2NjNiNWIyYjI0Y2ZkYTZlZWQ3MTFjZTMxYzVmNDBiNmM5Mzk5OTM2OGVkZmExMjMyYjIxNDQ4";
+  "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661";
 const img2 =
-  "https://cdn.shopify.com/s/files/1/2428/5565/products/Neemans-HaleBlack-ReLive-Knits-Jogger-FrontRightLogo-Comfortable-Shoes_1024x.jpg?v=1662876260";
+  "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-midnight-select-20220606?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1653084303665";
 
 const Home = () => {
   const productList = [
     {
-      name: "Mac Book",
-      price: 12000,
+      name: "MacBook Air M1",
+      price: 999,
       imgSrc: img1,
-      id: "asdhajsdbhjabhsjdfdfv",
+      id: "anshu1",
     },
     {
-      name: "Black Shoes",
-      price: 490,
+      name: "Macbook Air M2",
+      price: 1199,
       imgSrc: img2,
-      id: "sdjfdlaajsdbhjabhsjdfdfv",
+      id: "anshu2",
     },
   ];
 
